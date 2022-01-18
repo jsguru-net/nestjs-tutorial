@@ -1,5 +1,5 @@
 import { Module } from '@nestjs/common';
-import { BlogController } from './blog/blog.controller';
+import { BlogController } from './controllers/blog.controller';
 
 @Module({
   controllers: [BlogController],
